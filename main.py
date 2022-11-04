@@ -18,14 +18,6 @@ def flip(arr, i):
     i -= 1
 
 
-# Returns index of the maximum
-# element in arr[0..n-1] */
-def findMax(arr, n):
-  mi = 0
-  for i in range(0, n):
-    if arr[i] > arr[mi]:
-      mi = i
-  return mi
 
 
 
@@ -87,4 +79,4 @@ n = len(negaArr)
 printArray(negaArr, n)
 pancakeSort(negaArr, n)
 
-# This code is contributed by shreyanshi_arun.
+
